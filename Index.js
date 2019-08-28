@@ -34,7 +34,7 @@ function revisar(){
         if (result.value) {
           swalWithBootstrapButtons.fire(
             'Gracias por aceptar ser mi novia preciosa',
-            'Te quiero muchisimo y me haces muy feliz flaquita 💕',
+            'Te quiero muchisimo. Me haces muy feliz flaquita 💕',
             'success'
           )
         } else if (
