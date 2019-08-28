@@ -1,0 +1,19 @@
+button#revisar {
+    border: solid 1px red;
+    color:red;
+    border-radius: 3px;
+    background-color: green;
+}
+
+* {
+    color: blueviolet
+}
+
+img {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh
+    
+}
