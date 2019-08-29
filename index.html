@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <title>Deimy bebé ♥</title>
+</head>
+
+<body >
+    <img src="yui.jpg" alt="">
+  <div class="container-fluid">
+    <h1 style="text-align: center; ">Para mi Deimy preciosa </h1>
+    <div id="container-fluid" paginate="1" class="row" style="justify-content: center">
+        <div class="col-sm-4">
+            <h3>¿Que dia mandé mi cv?</h3>
+            <div class="pregunta1">
+                <input type="radio" class="q1" name="1" value="0"> 10 de Junio 📅
+            </div>
+            <div class="pregunta1">
+                <input type="radio" class="q1" name="1" value="1"> 15 de Junio 📅
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿De que fue lo primero que te hablé?</h3>
+            <div class="pregunta2">
+                <input type="radio" class="q2" name="2" value="0"> Tu foto de perfil 👧
+            </div>
+            <div class="pregunta2">
+                <input type="radio" class="q2" name="2" value="1"> tu carita todo preciosa hecha por los dioses del
+                olimpo 🥰
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿Cómo empezamos a tener confianza?</h3>
+            <div class="pregunta3">
+                <input type="radio" class="q3" name="3" value="0">Me contaste que te querías salir del trabajo 🏢
+            </div>
+            <div class="pregunta3">
+                <input type="radio" class="q3" name="3" value="1">Te conté que me quería salir de la escuela 🏫
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿Cuál es una de las canciones que me mandaste cantando?</h3>
+            <div class="pregunta4">
+                <input type="radio" class="q4" name="4" value="0"> Hate to see your heart break 💔
+            </div>
+            <div class="pregunta4">
+                <input type="radio" class="q4" name="4" value="1"> Kill this love 🎶
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿Deimy ve yaoi?</h3>
+            <div class="pregunta5">
+                <input type="radio" class="q5" name="5" value="0"> Sí :) 
+            </div>
+            <div class="pregunta5">
+                <input type="radio" class="q5" name="5" value="1"> No :(
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿Cuál fue la primera invitación que rechazaste?</h3>
+            <div class="pregunta6">
+                <input type="radio" class="q6" name="6" value="0"> Salir a comer 🍙
+            </div>
+            <div class="pregunta6">
+                <input type="radio" class="q6" name="6" value="1"> Salir al cine 🍿
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿Dijiste que tenías una pijama de las tortugas ninja?</h3>
+            <div class="pregunta7">
+                <input type="radio" class="q7" name="7" value="0"> Sí 🐢
+            </div>
+            <div class="pregunta7">
+                <input type="radio" class="q7" name="7" value="1"> No 
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿Qué le gusta más a Carlitos?</h3>
+            <div class="pregunta8">
+                <input type="radio" class="q8" name="8" value="0"> Deimy ❤
+            </div>
+            <div class="pregunta8">
+                <input type="radio" class="q8" name="8" value="1"> Muse 🎸
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>¿Cómo te gustaría pasar el siguiente año?</h3>
+            <div class="pregunta9">
+                <input type="radio" class="q9" name="9" value="0"> Solita en tu casita 😥 
+            </div>
+            <div class="pregunta9">
+                <input type="radio" class="q9" name="9" value="1"> Con Carlitos ❤
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <button id="revisar" onclick="revisar()" type="button">  <i class="fas fa-heart"></i></button>
+        </div>
+    </div>
+</div>
+
+<script src="paginateIt.js"></script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    function revisar(){
+
+const swalWithBootstrapButtons = Swal.mixin({
+    customClass: {
+      confirmButton: 'btn btn-success',
+      cancelButton: 'btn btn-danger'
+    },
+    buttonsStyling: false
+  })
+  
+  swalWithBootstrapButtons.fire({
+    title: 'Quieres ser la novia de Carlitos? 👰',
+    text: "Si aceptas, pasaremos el mejor año de nuestras vidas juntos y viviremos experiencias muy bonitas que recordaremos por siempre",
+    type: 'warning',
+    showCancelButton: true,
+    cancelButtonText: 'No, quiero solo setso 💔',
+    confirmButtonText: 'Sí, quiero pasar el mejor año de mi vida con Carlitos como su novia! 💖',
+    reverseButtons: true
+  }).then((result) => {
+    if (result.value) {
+      swalWithBootstrapButtons.fire(
+        'Gracias por aceptar ser mi novia preciosa',
+        'Te quiero muchisimo. Me haces muy feliz flaquita 💕',
+        'success'
+      )
+    } else if (
+ 
+      result.dismiss === Swal.DismissReason.cancel
+    ) {
+      swalWithBootstrapButtons.fire(
+        'Pos bueno',
+        'Al menos no intenté 💔',
+        'error'
+      )
+    }
+  })
+}
+
+</script>
+</body>
+
+</html>
