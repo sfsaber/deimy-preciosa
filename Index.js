@@ -7,10 +7,11 @@ var count = 0
 $(document).ready(function () {
 
       
-    
+    console.log('jala')
 });
 
 function revisar(){
+      console.log('jala')
     for (let index = 0; index < respuestasC.length; index++) {
         RespuestasUser[index] = $('input[name="' + (index + 1) + '"]:checked').attr("value");
     }
